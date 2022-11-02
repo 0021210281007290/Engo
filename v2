@@ -1377,7 +1377,7 @@ function library:CreateMain(title, description, keycode)
         return library3
     end
     function library2:CreateSettings()
-        local settings = library2:CreateTab("Settings")
+        local settings = library2:CreateTab("• Settings")
         local hidegui = settings:CreateBind("HideGUI", Enum.KeyCode.RightControl, function(value)
             library["Bind"] = value
         end)
